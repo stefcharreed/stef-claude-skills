@@ -135,7 +135,7 @@ path. Then what you didn't review and why.
   `truncated` hit. Execution surface adds up hooks across
   every plugin in a *marketplace*, but plugins install one at a time, so judge the plugins the user would actually enable.
 - The gate is a regex tripwire, not a vetting guarantee. It doesn't see logic inside scripts (e.g. Python
-  `urllib` + `exec`), `hooks:` in skill/agent frontmatter, or `` !`cmd` `` bash in plugin commands. A clean gate
+  `urllib` + `exec`), `hooks:` in skill/agent frontmatter, or bang-backtick shell injection in plugin commands. A clean gate
   means "no tripwire hit", not "safe". Maintenance penalizes repos that never cut releases;
   marketplaces and skill packs often don't, so adjust when pushes are recent.
 - Auto scores are heuristics. A review that disagrees with them wins; say why.

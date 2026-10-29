@@ -15,6 +15,8 @@ Claude Code plugins for pressure-testing decisions and vetting Claude Code repos
 | [bias-council](plugins/bias-council) | Blind panel of subagents reviews a decision, plan or draft, then gives a verdict | CI static check + 10 evals |
 | [repo-scan](plugins/repo-scan) | Scores Claude Code repos on a 10-factor rubric with security gates | CI offline selftest; live scans need `gh` auth |
 
+How these fit into everything else I run: [WORKFLOW.md](WORKFLOW.md).
+
 ## Profile (optional)
 
 `~/.config/claude-skills/profile.md`, `key: value` lines. See [profile.example.md](profile.example.md). Skills work without it.
