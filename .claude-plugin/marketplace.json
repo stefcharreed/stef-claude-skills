@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "stef-claude-skills",
+  "owner": {
+    "name": "stefcharreed"
+  },
+  "plugins": [
+    {
+      "name": "bias-council",
+      "description": "Blind council of independent read-only subagents that reduces bias in a decision, claim, plan or piece of writing.",
+      "source": "./plugins/bias-council"
+    },
+    {
+      "name": "repo-scan",
+      "description": "Rescan GitHub for Claude Code repos and score them against a 10-factor rubric with security gates.",
+      "source": "./plugins/repo-scan"
+    }
+  ]
+}

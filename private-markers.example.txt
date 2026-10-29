@@ -1,0 +1,4 @@
+# One private string per line, case-insensitive. Copy to private-markers.txt (gitignored).
+Jane Example
+Example Corp
+/home/jane

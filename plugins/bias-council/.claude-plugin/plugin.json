@@ -1,0 +1,8 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "bias-council",
+  "version": "0.1.0",
+  "description": "Blind Delphi-lite council of read-only Claude subagents to reduce bias in decisions, claims, plans and writing",
+  "author": { "name": "stefcharreed" },
+  "skills": ["./"]
+}

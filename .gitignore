@@ -1,0 +1,4 @@
+.claude/
+__pycache__/
+private-markers.txt
+plugins/repo-scan/skills/claude-repo-scan/data/

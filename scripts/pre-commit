@@ -1,0 +1,5 @@
+#!/bin/sh
+# Marker gate: scan the staged content (not the working copy) of every added/changed file.
+# -z keeps names with spaces or non-ASCII characters intact.
+git diff --cached --name-only -z --diff-filter=ACMR |
+  python3 "$(git rev-parse --show-toplevel)/scripts/check_markers.py" --staged
